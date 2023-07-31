@@ -1,0 +1,117 @@
+.main {
+  display: flex;
+  padding: 4.5vh 6vw;
+}
+
+.form1 {
+  /* border: 7px solid black; */
+  border-radius: 14px;
+  margin: 0px 50px 0px 0px;
+  width: 43vw;
+  padding: 30px 80px;
+  height: 100%;
+  background-color: whitesmoke;
+}
+
+.form2 {
+  outline: solid 23px black;
+  outline-offset: -1px;
+  margin: 2vh 0px 0px 4.2vw;
+  border-radius: 18px; 
+  width: 24vw;
+  height: 85vh;
+  background-color: rgb(150, 149, 149);
+}
+.iii{
+  padding: 6px;
+  border-radius: 3px;
+  border: 2px solid lightgrey;
+  width: 102.3%;
+}
+
+.inputn{
+  width: 100%;
+  padding: 6px;
+  border-radius: 3px;
+  border: 2px solid lightgrey;
+}
+.inputs{
+  margin: 0px 24.2vw 0px 0px;
+  width: 70%;
+  padding: 6px;
+  border-radius: 3px;
+  border: 2px solid lightgrey;
+}
+button{
+  background-color: white;
+}
+
+.mform{
+  display: flex;
+}
+.buttontop{
+  height: 6vh;
+  padding: 2vw;
+}
+.buttoncenter{
+  margin: 25.3vh 0px;
+  text-align: center;
+ 
+}
+.buttonbottom{ 
+  height: 6vh;
+  padding: 2vw;
+} 
+#b1{
+  float: left;
+}
+#b2{
+  float: right;
+}
+#b4{
+  float: left;
+}
+#b5{
+  float: right;
+}
+button{
+  padding: 10px;
+  border: lightgrey;
+  border-radius: 5px;
+  font-size: 2vh;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: var(--tooltip-width) var(--tooltip-height);
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
